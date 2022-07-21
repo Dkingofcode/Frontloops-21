@@ -1,0 +1,97 @@
+.icon-sprite {
+  width: 0;
+  height: 0;
+  fill: #345534;
+}
+
+.logo{
+  fill: #345534;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto;
+}
+
+.Photo-album{
+  background-color: white;
+  border: 1px solid red;
+  width: 50%;
+  margin: 0 auto;
+  height: 600px;
+  padding: 0 26px 0 0;
+}
+
+
+.header{
+  border: 1px solid darkblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery{
+  border: 1px solid black;
+}
+
+.images div:nth-child(1){
+  border: 1px solid gold;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);   
+}
+
+.images div:nth-child(2){
+  border: 1px solid saddlebrown;
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.images .big{
+  grid-column: 5/ span 8;
+  border: 1px solid brown;
+  height: 200px;
+  width: 100%;
+}
+
+.images img{
+  width: 200px;
+  height: 170px;
+  grid-column: span 4;
+  border: 1px solid violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
